@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Operação de PA",
+        "description": "Operação e gerenciamento de sistemas de som."
+    },
+    {
+        "name": "Monitoramento",
+        "description": "Operação de monitor e acompanhamento de palco."
+    },
+    {
+        "name": "Eventos Corporativos",
+        "description": "Operação técnica para eventos corporativos."
+    },
+    {
+        "name": "Produção Técnica",
+        "description": "Planejamento e acompanhamento técnico."
+    },
+    {
+        "name": "Sonorização",
+        "description": "Sistemas de áudio para diferentes formatos de eventos."
+    },
+    {
+        "name": "Sistemas Dante",
+        "description": "Configuração e operação de redes de áudio."
+    }
+]

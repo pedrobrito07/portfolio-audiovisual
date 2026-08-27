@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Yamaha QL5",
+        "description": "Console digital profissional"
+    },
+    {
+        "name": "Yamaha CL5",
+        "description": "Console digital profissional"
+    },
+    {
+        "name": "Yamaha DM3",
+        "description": "Console digital compacto"
+    },
+    {
+        "name": "Midas M32",
+        "description": "Console digital"
+    },
+    {
+        "name": "Behringer WING",
+        "description": "Console digital"
+    },
+    {
+        "name": "Dante",
+        "description": "Áudio sobre IP"
+    }
+]
