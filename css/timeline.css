@@ -1,0 +1,134 @@
+/* =========================================================
+   TIMELINE
+========================================================= */
+
+.timeline {
+
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 0;
+}
+
+.timeline-row {
+
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    min-height: 300px;
+}
+
+.timeline-row:nth-child(even) {
+    direction: rtl;
+}
+
+.timeline-row:nth-child(even) .timeline-card {
+    direction: ltr;
+}
+
+.timeline-line {
+
+    position: absolute;
+
+    left: 50%;
+
+    top: 0;
+    bottom: 0;
+
+    width: 1px;
+
+    background: var(--border);
+
+    transform: translateX(-50%);
+}
+
+.timeline-card {
+
+    position: relative;
+
+    padding: 40px 50px;
+
+    border-top: 1px solid var(--border);
+
+    transition: background var(--transition);
+}
+
+.timeline-card:hover {
+    background: rgba(255,255,255,.025);
+}
+
+.timeline-dot {
+
+    position: absolute;
+
+    top: -5px;
+
+    width: 9px;
+    height: 9px;
+
+    border-radius: 50%;
+
+    background: var(--accent);
+
+    box-shadow: 0 0 0 5px var(--black);
+}
+
+.timeline-card:nth-child(odd) .timeline-dot {
+    right: -5px;
+}
+
+.timeline-card:nth-child(even) .timeline-dot {
+    left: -5px;
+}
+
+.timeline-year {
+
+    color: var(--accent);
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: .12em;
+}
+
+.timeline-title {
+
+    margin-top: 15px;
+
+    font-family: "Manrope", sans-serif;
+
+    font-size: 27px;
+
+    font-weight: 700;
+}
+
+.timeline-description {
+
+    max-width: 470px;
+
+    margin-top: 12px;
+
+    color: var(--gray);
+
+    font-size: 14px;
+}
+
+.timeline-image {
+
+    width: 100%;
+
+    max-width: 240px;
+
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+
+    margin-top: 25px;
+}
