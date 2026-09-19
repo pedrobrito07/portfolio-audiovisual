@@ -1,5 +1,11 @@
 [
-   
+   {
+        "image": "Audio.jpg",
+        "title": "Certificação Audio",
+        "institution": "Faculdade Zumbi dos Palmares",
+        "year": "2025",
+        "pdf": "Audio.pdf"
+    },
     {
         "image": "Dante-01.jpg",
         "title": "Certificação Dante Nivel 1",
@@ -21,4 +27,5 @@
         "year": "2023",
         "pdf": "Digico.pdf"
     }
+    
 ]
